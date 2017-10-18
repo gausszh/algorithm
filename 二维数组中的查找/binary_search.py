@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 class Solution:
     # array 二维列表
+
     def binary_search(self, target, lt):
         first, end = 0, len(lt) - 1
         while first <= end:
@@ -20,4 +21,4 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    print s.Find(7,[[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]])
+    print s.Find(7, [[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]])
